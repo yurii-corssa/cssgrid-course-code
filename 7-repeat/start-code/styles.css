@@ -4,4 +4,5 @@
 
 .container {
   display: grid;
+  grid-template-columns: 50px repeat(3, 1fr 80px) auto 150px;
 }
