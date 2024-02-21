@@ -2,6 +2,21 @@
 
 /* lesson styles */
 
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .container {
   display: grid;
+  border: 5px solid #67848b;
+}
+
+.first {
+  grid-template-columns: repeat(auto-fill, 150px);
+}
+
+.second {
+  grid-template-columns: repeat(auto-fit, 150px);
 }
