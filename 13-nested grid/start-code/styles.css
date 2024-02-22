@@ -4,4 +4,18 @@
 
 .container {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.grid-item > img {
+  width: 100%;
 }
